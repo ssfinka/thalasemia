@@ -15,36 +15,9 @@ body {
   }
   
   .left_area img {
-    width: 80px;
-    height: 50px;
-    margin-left: 60px;
-  }
-  
-  /* .logout_btn {
-    padding: 5px;
-    background: #fff;
-    text-decoration: none;
-    float: right;
-    margin-top: -50px;
-    margin-right: 40px;
-    border-radius: 2px;
-    font-size: 15px;
-    font-weight: 600;
-    color: #000;
-    transition: 0.5s;
-    transition-property: background;
-  } */
-  
-  .logout_btn {
     width: 50px;
-    height: 50px;
-    margin-top: -60px;
-    margin-right: 40px;
-    float: right;
-  }
-  
-  .logout_btn:hover {
-    background: #0b87a6;
+    height: 55px;
+    margin-left: 60px;
   }
   
   .sidebar {
@@ -63,26 +36,6 @@ body {
     overflow-y: auto;
   }
   
-  .profile_info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .sidebar .profile_info .profile_image {
-    width: 100px;
-    height: 60px;
-    border-radius: 100px;
-    margin-bottom: 10px;
-  }
-  
-  .sidebar .profile_info h4 {
-    color: #000;
-    margin-top: 0;
-    margin-bottom: 20px;
-  }
-  
   .sidebar a {
     color: #000;
     display: block;
@@ -93,10 +46,6 @@ body {
     box-sizing: border-box;
     transition: 0.5s;
     transition-property: background;
-  }
-  
-  .sidebar .judul {
-    padding-left: 20px;
   }
   
   .sidebar a:hover {
@@ -112,7 +61,7 @@ body {
     color: #000;
     position: fixed;
     cursor: pointer;
-    left: 300px;
+    left: 265px;
     font-size: 30px;
     margin: 5px 0;
     transition: 0.5s;
